@@ -34,3 +34,4 @@
 /Users/burakkocak/Projects/MvcTestApp/MvcTestApp/obj/Debug/netcoreapp3.0/MvcTestApp.pdb
 /Users/burakkocak/Projects/MvcTestApp/MvcTestApp/obj/Debug/netcoreapp3.0/MvcTestApp.csproj.CopyComplete
 /Users/burakkocak/Projects/MvcTestApp/MvcTestApp/obj/Debug/netcoreapp3.0/Razor/Views/Blog/Index.cshtml.g.cs
+/Users/burakkocak/Projects/MvcTestApp/MvcTestApp/obj/Debug/netcoreapp3.0/Razor/Views/Blog/Show.cshtml.g.cs

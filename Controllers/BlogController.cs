@@ -1,4 +1,5 @@
 ﻿using System;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,9 +11,21 @@ namespace MvcTestApp.Controllers
 {
     public class BlogController : Controller
     {
+
+
         // GET: /<controller>/
         public IActionResult Index()
         {
+            var list = new string[] {"first blog","second blog","third blog","fourth blog","fifth blog"};
+           
+            ViewBag.List = list;
+            return View();
+        }
+        public IActionResult Show()
+        {
+
+
+            
             return View();
         }
     }

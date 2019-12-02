@@ -4,14 +4,21 @@
 @{
     ViewData["Title"] = "Blog Page";
 }
+@{
+    var data = ViewBag.List;
+
+}
 
 
 
 <div>
     <h1>This is my blog page</h1>
     <ul>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
+      @{ foreach (var d in data)
+          {
+        <li><a href="">@d</a></li>
+              }
+          }
     </ul>
+    
 </div>
