@@ -6,6 +6,7 @@
 }
 @{
     var data = ViewBag.List;
+    int i = 1;
 
 }
 
@@ -16,7 +17,9 @@
     <ul>
       @{ foreach (var d in data)
           {
-        <li><a href="">@d</a></li>
+              
+        <li><a href="/Blog/@i">@d</a></li>
+        i++;
               }
           }
     </ul>

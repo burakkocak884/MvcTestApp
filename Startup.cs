@@ -57,7 +57,7 @@ namespace MvcTestApp
                       pattern: "{controller=Blog}/{action=Index}");
                 endpoints.MapControllerRoute(
                      name: "blog",
-                     pattern: "{controller=Blog}/{action=Index}/{id}");
+                     pattern: "{controller=Blog}/{action=Show}/{id?}");
            
         });
         }
