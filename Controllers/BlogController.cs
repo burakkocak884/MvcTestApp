@@ -24,11 +24,15 @@ namespace MvcTestApp.Controllers
         }
         public IActionResult Show()
         {
-            WriteLine("blog show page");
+           
             var str = "you are at the blog show";
             ViewBag.show = str;
             
             return View();
+        }
+        public string List()
+        {
+            return "blah blah blah";
         }
     }
 }
